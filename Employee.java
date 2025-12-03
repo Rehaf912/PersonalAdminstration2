@@ -1,4 +1,4 @@
-public class Employee {
+Tasta4urPla894tpublic class Employee {
     private String name;
     private String vorname;
     private int  geburtsdatum;
@@ -28,7 +28,36 @@ public class Employee {
         this.abteilung = newAbteilung;
     }
     public void zeigeAbteilungAn(){
-    System.out.println("Ich bin in der Abteilung: " + abteilung);
+        System.out.println("Ich bin in der Abteilung: " + abteilung);
+    }
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return name;
+    }
+    public void setAlter(int alter){
+        this.alter = alter;
+    }
+    public int getAlter(){
+        return alter;
+    }
+    public void setGeschlecht(String geschlecht){
+        this.geschlecht = geschlecht;
+    }
+    public String getGeschlecht(){
+        return geschlecht;
+    }
+    public void setGehalt(double gehalt){
+        this.gehalt = gehalt;
+    }
+    public double getGehalt(){
+        return gehalt;
+    }
+    public void setGewicht(double gewicht){
+        this.gewicht = gewicht;
+    }
+    public double getGewicht(){
+        return gewicht;
     }
 }
-
