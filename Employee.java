@@ -24,17 +24,6 @@ public class Employee {
         this.gewicht = gewicht;
         this.besonderheiten = besonderheiten;
 
-        if(alter>=40){
-            gehalt=3000;
-        }
-        if(alter>=60){
-            gehalt+= 500;
-        }
-        if(geschlecht == "männlich"){
-            if(alter == 50){
-                gewicht-= 10;
-            }
-        }
     }
     public void setNewAbteilung(String newAbteilung){
         this.abteilung = newAbteilung;
